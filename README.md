@@ -187,3 +187,7 @@ Codex AI 보고서는 `validation.json`과 `tests.log`의 기록을 읽어 사�
 - `runs/`, `outputs/`, `.venv/`는 배포되지 않으므로 새 PC에서 직접 생성해야 합니다.
 - `data/validation_answer_key.csv`는 독립 검증용이며 분석기는 이 파일을 읽지 않습니다. 분석 입력으로 사용하거나 분석 로직에 결합하지 마세요.
 - 실제 회사 데이터로 바꾸려면 개인정보·영업비밀 보호, 계정 체계, 중요성 기준, 회계정책과 법규를 별도로 검토해야 합니다.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
