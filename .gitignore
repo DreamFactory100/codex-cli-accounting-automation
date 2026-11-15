@@ -1,0 +1,52 @@
+# Project-local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Reproducible generated artifacts
+runs/
+outputs/
+
+# Personal Codex/agent/editor settings
+.codex/
+.agents/
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+auth.json
+
+# Temporary, backup, and OS files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Gate-specific local verification artifacts
+docs/gate7_codex_exec_review.md
+docs/gate9-failure-test/
+docs/gate10_file_inventory.csv
